@@ -1,0 +1,16 @@
+---
+title: "Road count data"
+output: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Project looking at road traffic stats
+
+```{r}
+rc = readRDS("data/rc.Rds")
+unique(rc$`Region Name (GO)`)
+```
+
